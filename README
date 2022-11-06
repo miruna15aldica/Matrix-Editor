@@ -1,0 +1,38 @@
+Aldica Maria-Miruna
+
+Task 1: (Incarcarea in memorie a unei matrice)
+Se aloca memorie pentru matrice si se citesc elementele, calculandu-se in
+acelasi timp si suma elementelor matricei. 
+
+Pentru celelalte operatii se foloseste functia citeste_index pentru a memora
+daca indexul memorat este sau nu valabilsi in cazul in care nu este se afiseaza
+eroarea. Altfel, returnam valoarea lui.
+
+Task 2: (Determinarea dimensiunilor unei matrice)
+Se afiseaza din structura dimensiunile matricei cu indexul dat.
+
+Task 3: Afisarea unei matrice
+Pentru indexul citit, se afiseaza continutul matricei corespunzatoare.
+
+Task 4: Redimensionarea unei matrice folosind indexarea specifica
+Se creaza o copie a matricei. Apoi matricea originala este redimensionata
+conform noilor dimensiuni. Dupa se introduc elementele noii matrice din copie. 
+
+Task 5: Inmultirea a doua matrice
+Generam o noua matrice care sa retina produsul celor doua. Daca numarul de
+coloane al primei este egal cu numarul de linii al celei de a doua, putem merge
+mai departe cu functia inmultire. In caz contrar, afisam mesajul de eroare.
+
+Task 6: Sortarea matricelor in memorie
+Folosim algoritmul de sortare bubble sort.
+
+Task 7: Transpunerea unei matrice
+Similar taskului 4, se creaza o copie din care refacem matricea a transpusa,
+inversand liniile cu coloanele.
+
+Task 8: Eliminarea unei matrice din memorie
+Se elibereaza memoria alocata dinamic matricei de la indexul dat si se muta
+toate matricele urmatoare o pozitie la stanga.
+
+Task 9: Oprirea programului si dealocarea tuturor resurselor
+Eliberam toata memoria alocata dinamic pe parcursul rularii programului
